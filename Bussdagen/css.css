@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+}
+
+body {
+       background-color: whitesmoke;
+       font-size: 62.5%;
+}
+
+.header {
+    background-color: #005372; 
+    width: 101%;
+    height: 80px;
+    box-shadow: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("logoBlue.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding-top: 10px;
+    position: fixed;
+}
+.headerText {
+    margin-left: 80px;
+    position: relative;
+    bottom: 5px;
+    color: whitesmoke;
+}
+#firstBoi {
+    color: #005781;
+    position: relative;
+    top: 102px;
+}
+
+/* Texttyper */
+p {
+    
+}
+
+h1 {
+    font-size:3em;
+    margin-left: 10%;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-weight: 400;
+}
+
+

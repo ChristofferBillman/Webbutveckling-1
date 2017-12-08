@@ -1,0 +1,57 @@
+<html>
+<head>
+    <!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <main>
+<div class="titleCard">
+    <h1> Formulär </h1>
+</div>
+<div class="formCard">
+    
+    <form action="http://172.20.1.15/kommun/anslagstavla" method="post">
+        
+        <label id="arende"> Ärende </label> 
+    <input type="text" placeholder=" Ärende" name="title"> 
+    
+        <label> Ärendetyp </label>
+    <input type="text" placeholder=" Ärendetyp"> 
+    
+        <label> Organ </label>
+    <input type="text" placeholder=" Organ" name="authority">
+    
+        <label> Beskrivning</label>
+    <textarea type="text" id="description" placeholder=" Beskrivning" name="stub"> </textarea>
+    
+        <div class="date">
+            <div id="date"> 
+                <label id="date"> Sammanträdesdatum</label>
+    <input type="date" placeholder=" hej " id="dateInput" name="meetingdate">
+            </div>
+            <div id="date">
+                <label id="date"> Publiceringsdatum </label>
+    <input type="date" placeholder=" hej " id="dateInput" name="pubdate">
+            </div>
+            <div id="date">
+                <label id="date"> Nedtagningsdatum</label>
+    <input type="date" placeholder=" hej " id="dateInput">
+            </div>
+        </div>
+    
+        <label> Förvaringsplats </label>
+    <input type="text" placeholder=" Ex. stadshuset" name="repository">
+    
+        <label> Filuppladdning </label>
+    <input type="file" id="fileupload" placeholder=" hej ">
+    
+    <input type="submit" name="Publicera" id="publish">
+</div>
+            </form>
+    </main>
+</body>
+</html>

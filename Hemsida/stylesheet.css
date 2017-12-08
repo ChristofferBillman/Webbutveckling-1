@@ -1,0 +1,25 @@
+.lyric {
+    background-color: #c4c4c4;
+    width:36%;
+    height:auto;
+    left: 30%;
+    position: relative;
+    padding-bottom: 1%;
+    
+
+}
+h1{
+font-family: Permanent Marker;
+font-size: 17px;
+padding-left:1%;
+
+
+}
+p{
+    font-family:;
+    padding-left: 3%;
+}
+.toprubric {
+position:relative;
+margin-left:50%;
+}

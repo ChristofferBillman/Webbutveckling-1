@@ -1,0 +1,115 @@
+main { 
+    margin: 0 auto;
+    min-width:600px;
+}
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+h1 { 
+    display: block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Roboto'
+}
+label {
+    margin-left: 50px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    display: block;
+}
+input, textarea {
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #f7f7f7;
+    border-style: solid;
+    background-color: #f7f7f7;
+    transition-duration: 0.5s;
+}
+.titleCard {
+    background-color: white;
+    width:;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 20px rgba(1, 1, 1, 0.3);
+    border-radius: 3px;
+    max-width: 1000px;
+
+}
+.formCard {
+    background-color: white;
+    height: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px rgba(1, 1, 1, 0.3);
+    padding-top: 10px;
+    border-radius: 3px;
+    max-width: 700px;
+    padding-bottom: 10px;
+}
+.date {
+    display: flex;
+}
+#date {
+font-size: 11px;
+}
+#disclaimer {
+    
+}
+#fileupload {
+    display: block;
+    width: 57px;
+}
+#fileupload:hover {
+    display: block;
+    width: 200px;
+}
+#publish {
+    width: 200px;
+    height: 50px;
+    background-image: linear-gradient(to bottom right, #5ebdff,#0577c6);
+    border-color: #0577c6;
+    color: white;
+    margin: 30px 0px 0px 50px;
+}
+#publish:hover {
+    background-image: linear-gradient(to right, #5ebdff,#0577c6);
+}
+#arende {
+
+}
+#dateInput {
+    width: 129px;
+}
+input:hover {
+    
+}
+input:active {
+    border-color: #0577c6; 
+}
+#description  {
+    height: 100px;
+    width: 400px;
+    transition-duration: 0ms;
+    min-height: 40px;
+    min-width: 350px;
+}
+::-webkit-scrollbar{     
+    background-color: whitesmoke;
+    width: 15px;     
+    border-radius: 1px;
+}  
+::-webkit-scrollbar-thumb{ 
+    background-color: lightgray;     
+    border-radius: 5px;      
+}
+::-webkit-scrollbar-thumb:active{ 
+    background-color: rgba(94, 189, 255, 0.9);     
+    border-radius: 5px; 
+}
