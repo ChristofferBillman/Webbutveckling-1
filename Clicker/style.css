@@ -1,0 +1,220 @@
+* {
+    color: white;
+    font-family: 'Roboto Mono'
+}
+html {
+    font-size: 16px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body {
+    font-size: 62.5%;
+    background-color: black;
+    background-image: linear-gradient(0deg,black,#070030,#312384 );
+    background-repeat: no-repeat;
+}
+main {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    height: 100%;
+    padding-right: 60px;
+}
+h1 {
+    font-size: 4em;
+    margin: 0;
+    color: white;
+}
+h2 {
+    font-size: 3em;
+    color: white;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 2em;
+    color: white;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+header {
+    margin-top: 40px;
+}
+p {
+    font-size: 1.6em;
+    color: white;
+    margin-left: 20px;
+}
+hr {
+    width: 90%;
+}
+a {
+    color: white;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+button {
+    background-color: rgba(0,0,0,0);
+    margin-left: 20px;
+    border-style: solid;
+    padding: 10px;
+}
+#firsttext {
+    text-align: center;
+    margin-left: 0px;
+}
+#clickerbutton {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    background: radial-gradient(#007afc, #005bbc); 
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    transition-duration: 200ms;
+    border-style: none;
+    -webkit-user-select: none;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.5) ;
+}
+#clickerbutton:hover{
+    transform: scale(1.05);
+    transition-duration: 200ms;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.1) ;
+}
+#clickerbutton:active {
+    transform: scale(0.95);
+    transition-duration: 50ms;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.7);
+}
+#clickerbutton:focus {
+    outline: 0;
+}
+#counter {
+    text-align: center;
+}
+#upgrade1, #u2 {
+    width: 100%;
+    background-color: #303030;
+    border-style: hidden;
+    border-color: ;
+    transition-duration: 200ms;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow: visible;
+}
+#message {
+    text-align: center;
+    color: rgba(0,0,0,0);
+    transition-duration: 200ms;
+}
+#u1cost, #u2cost {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+#sideMenu {
+    position: absolute;
+    top: 0px;
+    right: -400px;
+    width: 75%;
+    max-width: 400px;
+    padding-right: 60px;
+    height: 100%;
+    background-color: #3d3d3d;
+    z-index: 1;
+    transition-duration: 300ms;
+    overflow-y: scroll;
+}
+#sideMenuVisible {
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(to  right, #2b2b2b, #303030);
+    z-index: 2;
+}
+#menuButton {
+    width:inherit;
+    height: 60px;
+    margin-top: 60px;
+    background: linear-gradient(to top left, #014ea0, #007afc);
+    border-radius: 5px;
+    transition-duration: 100ms;
+}
+#menuButton:hover {
+    transition-duration: 200ms;
+}
+#menuButton:active {
+    transition-duration: 100ms;
+}
+#settingContainer {
+    height: 30px;
+    width: 100%;
+    background-color: #303030;
+}
+#setting {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    float: right;
+}
+#delta {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2em;
+}
+#Layer_1 {
+    transform: rotate(180deg);
+    transition-duration: 150ms;
+}
+#u1delta, #u2delta {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+#u2deltaCurrent, #u1deltaCurrent {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 1.3em;
+}
+#welcomeModal {
+    background-color: #303030;
+    padding: 20px;
+    position: absolute;
+    width: 75%;
+    top: -110%;
+    transition-duration: 250ms;
+    z-index: 2;
+    box-shadow: 0 0 30px 5px rgba(0,0,0,0.5);
+}
+#u1button, #u2button {
+    width: 100px;
+    margin: 10px;
+    transition-duration: 200ms;
+    margin-left: 30px;
+}
+button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition-duration: 200ms;
+}
+.amplifier {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #303030;
+}
+#amplifierContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+

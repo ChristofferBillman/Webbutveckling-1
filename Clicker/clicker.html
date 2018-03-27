@@ -1,0 +1,80 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Miner </title>
+</head>
+
+<body id="body">
+    <div id="sideMenuVisible">
+        <div id="menuButton">
+            <xml version="1.0" encoding="utf-8"></xml>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:16;stroke-miterlimit:10;}
+</style>
+<line class="st0" x1="82.9" y1="218.5" x2="173.4" y2="128"/>
+<g>
+	<line class="st0" x1="173.3" y1="128" x2="82.7" y2="37.5"/>
+</g>
+<line class="st0" x1="167.7" y1="133.7" x2="179" y2="122.4"/>
+</svg>
+        </div>
+    </div>
+
+    <div id="sideMenu">
+        <div id="settingContainer"> <a id="setting">settings</a>
+        </div>
+        <!-- <a id="ampExpand"> Expand ↧ </a> -->
+        <h2> amplifiers</h2>
+        <hr>
+        
+        <div id="amplifierContainer">
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+            <div class="amplifier"></div>
+        </div>
+        <h2> upgrades</h2>
+        <hr>
+        <!-- <a id="uExpand"> Collapse ↥</a> -->
+        <div id="upgrade1">
+            <h3> nokia 3310</h3>
+            <p id="u1cost"> cost: 100 c</p>
+            <p id="u1deltaCurrent"> 0c/s</p>
+            <button id="u1button"> buy </button>
+        </div>
+
+        <div id="u2">
+            <h3> old laptop</h3>
+            <p id=u2cost> cost: 1000 c</p>
+            <p id="u2deltaCurrent"> 0c/s</p>
+            <button id="u2button"> buy </button>
+        </div>
+        <p id="message"> . <br> . </p>
+    </div>
+    <main>
+        <h1 id="counter"> 0c</h1>
+        <h2 id="delta"> 0c/s </h2>
+
+        <button id="clickerbutton">
+        <p id=firsttext>click here to begin mining</p>
+    </button>
+        <div id="welcomeModal">
+            <h2> disclaimer!</h2>
+            <p> this is just a clicker-game.<br> you are not actually mining any cryptocurrency.<br><br> the currency here has no value and is just part of this game. <br> but other than that, enjoy my game! <br> <br> //christoffer </p>
+            <button id="gotit"> okay! i got it!</button>
+        </div>
+    </main>
+    <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+    <script src="scriptv2.js"></script>
+</body>
+
+</html>
